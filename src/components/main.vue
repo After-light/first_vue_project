@@ -6,7 +6,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-3 col-md-2">
-                                <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/logo-dark.png"> <img class="logo logo-light" alt="logo" src="img/logo-light.png"> </a>
+                                <a href="index.html"> <img class="logo logo-dark" alt="logo" src="/assets/img/logo-dark.png"> <img class="logo logo-light" alt="logo" src="/assets/img/logo-light.png"> </a>
                             </div>
                             <div class="col-9 col-md-10 text-right">
                                 <a href="#game" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="col-lg-1 col-md-2 hidden-xs">
                                 <div class="bar__module">
-                                    <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/logo-dark.png"> <img class="logo logo-light" alt="logo" src="img/logo-light.png"> </a>
+                                    <a href="index.html"> <img class="logo logo-dark" alt="logo" src="/assets/img/logo-dark.png"> <img class="logo logo-light" alt="logo" src="/assets/img/logo-light.png"> </a>
                                 </div>
                             </div>
                             <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
@@ -91,7 +91,7 @@
                 <ul class="slides">
                     <li class="imagebg" data-overlay="4">
                         <div class="background-image-holder background--top">
-                            <img alt="background" src="img/main_banner01.jpg" />
+                            <img alt="background" src="/assets/img/main_banner01.jpg" />
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
@@ -109,7 +109,7 @@
                     </li>
                     <li class="imagebg" data-overlay="4">
                         <div class="background-image-holder">
-                            <img alt="background" src="img/main_banner02.jpg" />
+                            <img alt="background" src="/assets/img/main_banner02.jpg" />
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
@@ -138,12 +138,12 @@
                                 <ul class="slides flickity-enabled" tabindex="0">
                                     <div class="flickity-viewport">
                                         <div class="flickity-slider">
-                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="img/main-coin.png"> </li>
-                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="img/main-dice.png"> </li>
-                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="img/main-dice2.png"> </li>
-                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="img/main-roll.png"> </li>
-                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="img/main-size.png"> </li>
-                                            <li class="col-md-3 col-6 slide is-selected"> <img alt="Image" class="image--xxs" src="img/main-suit.png"> </li>
+                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="/assets/img/main-coin.png"> </li>
+                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="/assets/img/main-dice.png"> </li>
+                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="/assets/img/main-dice2.png"> </li>
+                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="/assets/img/main-roll.png"> </li>
+                                            <li class="col-md-3 col-6 slide"> <img alt="Image" class="image--xxs" src="/assets/img/main-size.png"> </li>
+                                            <li class="col-md-3 col-6 slide is-selected"> <img alt="Image" class="image--xxs" src="/assets/img/main-suit.png"> </li>
                                         </div>
                                     </div><button class="flickity-prev-next-button previous" type="button" aria-label="previous"><svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button><button class="flickity-prev-next-button next" type="button" aria-label="next"><svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button></ul>
                             </div>
@@ -151,9 +151,8 @@
                     </div>
                 </div>
             </section>
-
-           <section class="imagebg space--xxs" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
-		      <div class="container">
+            <section class="imagebg space--xxs" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+               <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-6">
                             <div class="feature feature-2 boxed boxed--border">
@@ -186,8 +185,8 @@
                 </div>
                 <div class="container">
                     <div class="rank">
-					    <div class="title__body">
-						     <div class="tittle">24시간 구매순위<i class="stack-down-dir"></i>
+                        <div class="title__body">
+                            <div class="tittle">24시간 구매순위<i class="stack-down-dir"></i>
 						</div>
 					</div>
 						<table class="border--round">
@@ -210,7 +209,7 @@
 									<td>16.37 ETH</td>
 								</tr>
 								<tr>
-									<td class="top3"></td>
+                                    <td class="top3"></td>
 									<td><u>0x7271670616ac4cEd41e47Db284b989792e408983</u></td>
 									<td>3.07 ETH</td>
 								</tr>
@@ -219,8 +218,8 @@
                     </div>
 
                     <div class="rank">
-					    <div class="title__body">
-						     <div class="tittle">24시간 승자순위<i class="stack-down-dir"></i>
+                        <div class="title__body">
+                            <div class="tittle">24시간 승자순위<i class="stack-down-dir"></i>
 						</div>
 					</div>
 						<table class="border--round">
@@ -252,8 +251,8 @@
                     </div>
 
                     <div class="rank">
-					    <div class="title__body">
-						     <div class="tittle">24시간 연승순위<i class="stack-down-dir"></i>
+                        <div class="title__body">
+                            <div class="tittle">24시간 연승순위<i class="stack-down-dir"></i>
 						</div>
 					</div>
 						<table class="border--round table--alternate-row">
@@ -276,7 +275,7 @@
 									<td>19</td>
 								</tr>
 								<tr>
-								    <td class="top-dice2"></td>
+                                    <td class="top-dice2"></td>
 									<td><u>0x373b38ec028431D36F08350764f412620427fb76</u></td>
 									<td>19</td>
 								</tr>
@@ -312,8 +311,8 @@
                 </div>
             </section>
 			<section class="height-60 imagebg parallax" data-overlay="3" id="industries">
-                <div class="background-image-holder" style="transform: translate3d(0px, 449.672px, 0px); background: url(&quot;img/main_banner03.jpg&quot;); opacity: 1;">
-                    <img alt="background" src="img/main_banner03.jpg">
+                <div class="background-image-holder" style="transform: translate3d(0px, 449.672px, 0px); background: url(&quot;/assets/img/main_banner03.jpg&quot;); opacity: 1;">
+                    <img alt="background" src="/assets/img/main_banner03.jpg">
                 </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
@@ -321,14 +320,15 @@
                             <div class="feature feature-3 boxed boxed--lg boxed--border text-center">
                                 <i class="icon icon-Yes"></i>
                                 <h4>최신 당첨자</h4>
-							<div class="tab__content text-left">
-                              <p>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.019</B></span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.011</B></span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.963</B></span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.425</B></span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>178.639</B></span> ETH<br>
-                              </p></div>
+                                <div class="tab__content text-left">
+                                    <p>
+                                        <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.019</B></span> ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.011</B></span> ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.963</B></span> ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>0.425</B></span> ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary"><B>178.639</B></span> ETH<br>
+                                    </p>
+                                </div>
                             </div>
                             <!--end feature-->
                         </div>
@@ -337,13 +337,14 @@
                                 <i class="icon icon-Compass-4"></i>
                                 <h4>잭팟 당첨자</h4>
 								<div class="tab__content text-left">
-                              <p>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary">0.019</span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary">0.011</span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary">0.963</span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary">0.425</span> ETH<br>
-							  <u>0x7271670616ac4c*84b989792e408983</u> 당첨 <span class="color--primary">178.639</span> ETH<br>
-                              </p></div>
+                                    <p>
+                                        <u>0x7271670616ac4c*84b989792e408983</u>당첨<span class="color--primary">0.019</span>ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u>당첨<span class="color--primary">0.011</span>ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u>당첨<span class="color--primary">0.963</span>ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u>당첨<span class="color--primary">0.425</span>ETH<br>
+                                        <u>0x7271670616ac4c*84b989792e408983</u>당첨<span class="color--primary">178.639</span>ETH<br>
+                                    </p>
+                                </div>
                             </div>
                             <!--end feature-->
                         </div>
@@ -359,10 +360,10 @@
                         <div class="col-sm-12">
                             <div class="heading-block">
                                 <ul class="list-inline list--hover">
-                                    <li> <a href="index.html" target="_self"><span>HOME</span></a> </li>
-                                    <li> <a href="game.html" target="_self"><span>GAME</span></a> </li>
-                                    <li> <a href="faq.html" target="_self"><span>FAQ</span></a> </li>
-                                    <li> <a href="aboutus.html" target="_self"><span>ABOUT US</span></a> </li>
+                                    <li><a href="index.html" target="_self"><span>HOME</span></a></li>
+                                    <li><a href="game.html" target="_self"><span>GAME</span></a></li>
+                                    <li><a href="faq.html" target="_self"><span>FAQ</span></a></li>
+                                    <li><a href="aboutus.html" target="_self"><span>ABOUT US</span></a></li>
                                 </ul>
                             </div>
                             <div>
@@ -373,8 +374,15 @@
                                     <li><a href="#game"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>
                                 </ul>
                             </div>
-                            <div> <span class="type--fine-print">카카오톡 상담&nbsp;</span> <img alt="Image" class="kakao" src="img/kakao.png"> </div>
-                            <div> <span class="type--fine-print">© 이더게임</span></span> <a class="type--fine-print" href="#game">이용약관</a> <a class="type--fine-print" href="#game">개인정보 처리방침</a> </div>
+                            <div>
+                                <span class="type--fine-print">카카오톡 상담&nbsp;</span>
+                                <img alt="Image" class="kakao" src="/assets/img/kakao.png">
+                            </div>
+                            <div>
+                                <span class="type--fine-print">© 이더게임</span>
+                                <a class="type--fine-print" href="#game">이용약관</a>
+                                <a class="type--fine-print" href="#game">개인정보 처리방침</a>
+                            </div>
                         </div>
                     </div>
                 </div>
